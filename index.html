@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>CFIMS</title>
+    
+    <link rel="stylesheet" href="styles/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="myStyles.css" type="text/css">
+    
+    
+</head>
+<body>
+    
+    <div class="headbar">
+        <div class="head-title">
+            Coop FIMS
+        </div>
+    </div>
+    
+    <div class="sys-title">
+        Cooperative Financial Information Management System
+    </div>
+    
+    <div class="button-wrapper">
+        <button class="log-in-btn" onclick="loginon()">Login</button>
+        <button class="log-in-btn" onclick="signupon()">Signup</button>
+    </div>
+    
+    <div id="login-overlay">
+        <div class="login-form-wrapper">
+            <form class="form" action="" method="POST">
+                <a class="close-btn" onclick="loginoff()"><span class="glyphicon glyphicon-remove"></span></a>
+                <div class="avatar-wrapper"><img class="login-avatar" src="images/login-avatar.png" alt="login avatar"></div>
+                <label class="login-label">Username</label><br>
+                <input class="login-input" type="text" name="username" placeholder="Enter Username" autofocus><br>
+                <label class="login-label">Password</label><br>
+                <input class="login-input" type="password" name="password" placeholder="Enter Password"><br>
+                <button id="login-btn" class="btn btn-success btn-block btn-lg" type="submit">Login</button>
+                <input id="rempwd" type="checkbox" name="rempwd" checked> Remember my password
+            </form>
+        </div>
+    </div>
+    
+    <div id="signup-overlay">
+    
+    </div>
+
+    <!--JavaScripts-->
+    <script src="jquerylib/jquery-3.2.1.js"></script>
+    <script src="styles/js/bootstrap.min.js"></script>
+    <script src="myJs.js"></script>
+</body>    
+</html>

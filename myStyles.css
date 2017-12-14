@@ -1,0 +1,171 @@
+* {
+    padding: ;
+}
+
+@media only screen and (max-width: 600px) {
+
+   .sys-title { 
+      font-size: 2em; 
+   }
+    .button-wrapper {
+    margin-top: 12.5vw; 
+    }
+
+}
+@font-face {
+    font-family: Lato;
+    src: url(fonts/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato Light;
+    src: url(fonts/lato/Lato-Light.ttf);
+}
+body {
+    background-image: url("images/bg-img.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+   
+}
+
+.headbar {
+    width: 100%;
+    padding: 5px 25px;
+    background-color: #323B45;
+    -moz-box-shadow: 0 0 10px 1px #060301;
+    -webkit-box-shadow: 0 0 10px 1px #060301;
+}
+
+.head-title {
+    color: ghostwhite;
+    font-family: Lato, monospace;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.sys-title {
+    color: white;
+    font-family: lato light, sans-serif;
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10vw;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 0px 25px;
+}
+
+.button-wrapper {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+
+.log-in-btn {
+    background-color: #141361;
+    border: none;
+    font-family: lato light;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 8px;
+    width: 200px;
+    height: 50px;
+    margin: 10px 20px;
+    opacity: 0.89;
+    outline: none;
+}
+
+.log-in-btn:hover {
+    background-color: #14133D;
+
+}
+#login-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+#signup-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.login-form-wrapper {
+    text-align: center;
+    font-family: lato;
+    font-size: 16px;
+    padding: 15px;
+    margin: auto;
+    width: ;
+}
+
+.form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+    
+    position: absolute;
+    height: 480px; 
+    width: 600px;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    margin: auto;
+    
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    
+    text-align: left;
+}
+
+.login-avatar {
+    height: 22vh;
+    margin: 10px;
+}
+
+.login-label {
+    
+}
+
+#login-btn {
+    margin-bottom: 10px;    
+}
+
+.avatar-wrapper {
+    text-align: center;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.close-btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: dimgrey;
+    font-size: 18px;
+    text-align: right;
+}
+
+/*I added lines here*/
